@@ -1,0 +1,21 @@
+{
+    "name": "Total Workload",
+    "short_name": "Workload",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#1d2f5b",
+    "theme_color": "#FFE100",
+    "description": "Lista f\u00f6r total workload och leveransbevakning",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
