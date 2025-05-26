@@ -1,14 +1,14 @@
-export function Card({ children, className = '' }) {
+export function Card({ children, className = '', ...props }) {
   return (
-    <div className={`rounded-3xl shadow-lg bg-white text-black ${className}`}>
+    <div className={`bg-white rounded-2xl shadow-md p-4 ${className}`} {...props}>
       {children}
     </div>
   );
 }
 
-export function CardContent({ children, className = '' }) {
+export function CardContent({ children, className = '', ...props }) {
   return (
-    <div className={`p-5 ${className}`}>
+    <div className={`mt-2 ${className}`} {...props}>
       {children}
     </div>
   );
